@@ -1,0 +1,5 @@
+microsoft.com - IP: 20.112.52.29 - Location: USA
+apple.com - IP: 17.253.144.10 - Location: USA
+cnn.com - IP: 151.101.65.67 - Location: USA
+nytimes.com - IP: 151.101.1.164 - Location: USA
+ubuntu.com - IP: 185.125.190.20 - Location: UK

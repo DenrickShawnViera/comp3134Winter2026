@@ -1,0 +1,10 @@
+Pinging 178.128.226.166 with 32 bytes of data:
+Reply from 178.128.226.166: bytes=32 time=16ms TTL=53
+Reply from 178.128.226.166: bytes=32 time=11ms TTL=53
+Reply from 178.128.226.166: bytes=32 time=14ms TTL=53
+Reply from 178.128.226.166: bytes=32 time=13ms TTL=53
+
+Ping statistics for 178.128.226.166:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 16ms, Average = 13ms

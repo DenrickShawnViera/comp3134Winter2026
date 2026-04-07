@@ -1,0 +1,24 @@
+Domain: google.com
+Registrar: MarkMonitor Inc.
+Creation Date: 1997
+Country: US
+
+Domain: amazon.com
+Registrar: MarkMonitor Inc.
+Creation Date: 1994
+Country: US
+
+Domain: wikipedia.org
+Registrar: Public Interest Registry
+Creation Date: 2001
+Country: US
+
+Domain: netflix.com
+Registrar: MarkMonitor Inc.
+Creation Date: 1997
+Country: US
+
+Domain: bbc.com
+Registrar: Register.com
+Creation Date: 1989
+Country: UK
