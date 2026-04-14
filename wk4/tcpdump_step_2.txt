@@ -1,0 +1,17 @@
+tcpdump -i any tcp -c 10 
+
+
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+22:32:27.508888 eth0  Out IP comp3134-Winter2026.ssh > 162.243.188.66.47888: Flags [P.], seq 358693529:358693625, ack 3466502271, win 502, options [nop,nop,TS val 1080450409 ecr 2355564452], length 96
+22:32:27.509585 eth0  Out IP comp3134-Winter2026.ssh > 162.243.188.66.47888: Flags [P.], seq 96:160, ack 1, win 502, options [nop,nop,TS val 1080450410 ecr 2355564452], length 64
+22:32:27.511338 eth0  Out IP comp3134-Winter2026.ssh > 162.243.188.66.47888: Flags [P.], seq 160:288, ack 1, win 502, options [nop,nop,TS val 1080450411 ecr 2355564452], length 128
+22:32:27.511388 eth0  Out IP comp3134-Winter2026.ssh > 162.243.188.66.47888: Flags [P.], seq 288:352, ack 1, win 502, options [nop,nop,TS val 1080450411 ecr 2355564452], length 64
+22:32:27.511424 eth0  Out IP comp3134-Winter2026.ssh > 162.243.188.66.47888: Flags [P.], seq 352:432, ack 1, win 502, options [nop,nop,TS val 1080450411 ecr 2355564452], length 80
+22:32:27.511457 eth0  Out IP comp3134-Winter2026.ssh > 162.243.188.66.47888: Flags [P.], seq 432:528, ack 1, win 502, options [nop,nop,TS val 1080450411 ecr 2355564452], length 96
+22:32:27.511491 eth0  Out IP comp3134-Winter2026.ssh > 162.243.188.66.47888: Flags [P.], seq 528:608, ack 1, win 502, options [nop,nop,TS val 1080450411 ecr 2355564452], length 80
+22:32:27.511544 eth0  Out IP comp3134-Winter2026.ssh > 162.243.188.66.47888: Flags [P.], seq 608:672, ack 1, win 502, options [nop,nop,TS val 1080450412 ecr 2355564452], length 64
+22:32:27.515229 eth0  In  IP 162.243.188.66.47888 > comp3134-Winter2026.ssh: Flags [.], ack 0, win 501, options [nop,nop,TS val 2355564466 ecr 1080450402], length 0
+22:32:27.522218 eth0  In  IP 162.243.188.66.47888 > comp3134-Winter2026.ssh: Flags [.], ack 96, win 501, options [nop,nop,TS val 2355564473 ecr 1080450409], length 0
+10 packets captured
