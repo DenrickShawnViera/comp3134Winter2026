@@ -1,0 +1,23 @@
+1) Input: Ben
+
+Observation:
+No rows were returned.
+
+Explanation:
+This was expected. The application searches for rows where firstname = 'Ben' and active = 1. In the database, there is a row with firstname Ben, but its active value is 0, so it does not match the full condition and nothing is displayed.
+
+2) Input: Ben'-- 
+
+Observation:
+The row for Ben was returned, even though Ben has active = 0.
+
+Explanation:
+This was not the intended behavior. The single quote closed the original firstname value, and the double dash commented out the rest of the SQL statement. As a result, the condition AND active = 1 was ignored, so the query only checked firstname = 'Ben'. This allowed the inactive Ben record to be displayed.
+
+3) Input: Ben' OR 1=1-- 
+
+Observation:
+All rows in the users table were returned.
+
+Explanation:
+This was not the intended behavior. The injected OR 1=1 condition is always true, and the comment sequence removed the rest of the original query. Because of that, the SQL statement returned every row from the table, which demonstrates a successful SQL injection vulnerability caused by unsanitized user input.
