@@ -1,0 +1,7 @@
+The page is also vulnerable to encoded directory traversal using %2e%2e%2f.
+This bypasses simple visual checks because the browser decodes the input to ../.
+
+Sensitive information exposed includes:
+- parent directory contents
+- internal server structure
+- files and folders that should not be visible to users

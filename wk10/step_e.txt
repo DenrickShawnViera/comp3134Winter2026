@@ -1,0 +1,5 @@
+I will mitigate the first issue by using basename() so the user cannot traverse to parent directories outside the html folder.
+
+I will mitigate the second issue by using file_exists() and is_dir() before scanning the path, so the script does not try to open folders that do not exist.
+
+As an extra mitigation, I will reject folder names containing a dot to reduce the chance of file access attempts.

@@ -1,0 +1,7 @@
+HTML comments are visible in the browser source code and can expose sensitive information such as developer identity or internal details.
+
+This is a security issue because attackers can view the page source and gather useful information.
+
+To mitigate this problem, HTML comments were replaced with PHP comments. PHP comments are processed on the server side and are not visible in the browser.
+
+This prevents sensitive information from being exposed to users.

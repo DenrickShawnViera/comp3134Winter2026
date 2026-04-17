@@ -1,0 +1,5 @@
+When a non-existent directory such as "hello" is provided in the query string, the application produces an error.
+
+This happens because there is no validation to check whether the directory exists before scanning it.
+
+This can expose server-side error messages and internal behavior, which is a security risk.

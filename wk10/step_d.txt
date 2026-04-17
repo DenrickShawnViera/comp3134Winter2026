@@ -1,0 +1,3 @@
+When a non-existent folder such as hello is passed in the query string, the page shows a PHP warning/error.
+This is an issue because the application does not validate whether the folder exists before trying to scan it.
+The page may reveal server-side error details and internal path behavior.

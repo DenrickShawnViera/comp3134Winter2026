@@ -1,0 +1,7 @@
+The page allows directory traversal by accepting ../ style input in the query string.
+This lets the user move outside the intended html directory and view parent directories on the server.
+
+Sensitive information exposed includes:
+- directory names outside the web root
+- server file structure
+- possibly configuration or application files if present
