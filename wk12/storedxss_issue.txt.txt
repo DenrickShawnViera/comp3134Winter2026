@@ -1,0 +1,2 @@
+The application outputs user input directly from a file without sanitization.
+This allows malicious scripts to execute in the browser, leading to stored XSS attacks.
