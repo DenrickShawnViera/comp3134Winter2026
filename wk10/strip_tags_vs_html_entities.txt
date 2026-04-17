@@ -1,0 +1,6 @@
+strip_tags() removes HTML and script tags from the input and returns only the plain text content.
+
+htmlentities() converts special HTML characters into safe encoded values so that the browser displays them as text instead of executing them.
+
+Difference:
+strip_tags() removes the tags completely, while htmlentities() keeps the original input visible but prevents it from being executed.

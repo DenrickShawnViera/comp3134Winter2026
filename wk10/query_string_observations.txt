@@ -1,0 +1,11 @@
+1. Valid English word:
+When a valid English word is entered in the Dictionary.com form, the website displays the correct definition and related information.
+
+2. Invalid English word after /browse/:
+When an invalid word is entered in the URL after /browse/, the website does not show a valid definition and may display suggestions or a message indicating no results found.
+
+3. Form input with <script>alert('hello')</script>:
+When the script is entered into the form, the website does not execute the JavaScript. This shows that the application has protection against XSS attacks.
+
+4. URL input with script after term=:
+When the script is placed in the URL query string, the website still does not execute the JavaScript. The input is sanitized or encoded, preventing XSS execution.
